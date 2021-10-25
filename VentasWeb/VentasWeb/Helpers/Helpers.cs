@@ -23,7 +23,7 @@ namespace VentasWeb.Helpers
 
                 Usuario rptUsuario = CD_Usuario.Instancia.ObtenerDetalleUsuario(oUsuario.IdUsuario);
 
-
+                //creacion de menu
                 foreach (Menu item in rptUsuario.oListaMenu)
                 {
                     sb.AppendLine("<li class='nav-item dropdown'>");
